@@ -1,0 +1,9 @@
+extends layout
+block body
+  h1 Tarefas Web
+  form(action="/login", method="POST")
+    input#email(type="text", name="email")
+    br
+    input(type="text", name="senha")
+    br
+    input(type="submit", value="enviar")
